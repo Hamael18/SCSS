@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.nav a:hover {
+  color: #ff6600;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+  background: #dedbdb;
+}
+
+.soustitre {
+  font-size: 0, 5em;
+}
+
+.navbar {
+  background-color: #ff6600;
+}
+
+.grosseRing {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  border: 22.2222222222px solid yellow;
+  box-shadow: inset 13.3333333333px 13.3333333333px 13.3333333333px olive, 20px 20px 20px #999900;
+}
+
+.petiteRing {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 5.5555555556px solid orange;
+  box-shadow: inset 3.3333333333px 3.3333333333px 3.3333333333px #805300, 5px 5px 5px #996300;
+}
+
+.ringLoop-1 {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3.8888888889px solid grey;
+  box-shadow: inset 2.3333333333px 2.3333333333px 2.3333333333px #404040, 3.5px 3.5px 3.5px #4d4d4d;
+  position: relative;
+  left: 10px;
+}
+
+.ringLoop-2 {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: 4.4444444444px solid grey;
+  box-shadow: inset 2.6666666667px 2.6666666667px 2.6666666667px #404040, 4px 4px 4px #4d4d4d;
+  position: relative;
+  left: -30px;
+}
+
+.ringLoop-3 {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  border: 5px solid grey;
+  box-shadow: inset 3px 3px 3px #404040, 4.5px 4.5px 4.5px #4d4d4d;
+  position: relative;
+  left: -70px;
+}
+
+.ringLoop-4 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 5.5555555556px solid grey;
+  box-shadow: inset 3.3333333333px 3.3333333333px 3.3333333333px #404040, 5px 5px 5px #4d4d4d;
+  position: relative;
+  left: -110px;
+}
+
+.ringLoop-5 {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  border: 6.1111111111px solid grey;
+  box-shadow: inset 3.6666666667px 3.6666666667px 3.6666666667px #404040, 5.5px 5.5px 5.5px #4d4d4d;
+  position: relative;
+  left: -150px;
+}
+
+.ringLoop-6 {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  border: 6.6666666667px solid grey;
+  box-shadow: inset 4px 4px 4px #404040, 6px 6px 6px #4d4d4d;
+  position: relative;
+  left: -190px;
+}

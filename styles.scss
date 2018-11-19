@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.btn {
+   display: block;
+   margin : auto;
+}
+
+.nav a:hover {
+  color: #ff6600;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+  background: #dedbdb ;
+} 
+.soustitre {
+  font-size : 0,5em;
+}
+.navbar {
+  background-color: #ff6600;
+}
+
+@mixin ring ($x, $color) {
+  border-radius : 50%;
+  height : $x;
+  width : $x;
+  border : $x/18 solid $color;
+  box-shadow: inset $x/30 $x/30 $x/30 darken($color,25%), $x/20 $x/20 $x/20 darken($color,20%);
+}
+
+    .grosseRing {
+      @include ring(400px, yellow)
+    }
+    .petiteRing {
+      @include ring(100px, orange)
+    }
+
+@for $i from 1 through 6 {
+  .ringLoop-#{$i} { @include ring(60px + $i*10, grey);;
+    position : relative;
+    left : 50px - $i*40;
+  }
+}
+    
+    
